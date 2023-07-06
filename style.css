@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 30px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+
+nav  {
+    display: flex; 
+    justify-content: left;
+    padding: 25px;
+    /* outline: 1px solid blue; */
+}
+.link a {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #333333;
+    padding: 20px; 
+   
+} 
+.link a:hover {
+    background-color: #0071e217;
+   }
+.menu a {
+    padding-bottom: 30px;
+}
+a {
+    text-decoration: none;
+}
+.line {
+    background-color: darkred;
+    height: 25px;
+    margin-top: 18px;
+    /* padding-top: 52px; */
+}
+
+.name1 {
+    /* background-color: darkgreen; */
+    position: relative;
+    color: deeppink;
+    top: 52px;
+    right: 190px;
+    width: max-content;
+ 
+}
+
+.track {
+    /* background-color: blue; */
+    font-weight: 400;
+    position: relative;
+    top: 80px;
+    right: 330px;
+    width: max-content;
+
+}
+.intro {
+    /* background-color: darkblue; */
+    font-weight: 200;
+    font-size: large;
+    position:absolute;
+    top: 200px;
+    right: 768px;
+    width: 400px;
+    line-height: -4px;
+   
+}
+
+img{
+    background-color: crimson;
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 150px 8px blue; */
+    margin-left: 33em;
+    margin-bottom: 4em; 
+    box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+
+    
+} 
+img:hover {
+    transform: scale(1.05);
+}
+.Orinfy {
+    color: gray;
+    position: relative;
+    left: 23.5em;
+    bottom: 2em;
+} 
+.Orinfy:hover {
+    color: purple;
+    text-decoration-line: underline;
+
+}
+#bottone5 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    position: relative;
+    left: 63em;
+    bottom: 4.5em;
+}
+   
+   #bottone5:hover,
+   #bottone5:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+   
+   #bottone5:hover {
+    transform: translateY(-1px);
+}
+   
+   #bottone5:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+.icon {
+    border: 2px solid #111111;
+    /* background-color: #24b4fb; */
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+    position: relative;
+    top: 400px;
+    right: 430px;
+   }
+   
+   button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-weight: 600;
+   }
+   
+   button:hover {
+    background-color: #0071e2;
+   }
+
+.icon {
+    position: relative;
+    top: 400px;
+    right: 490px;
+}
+.contact {
+    margin-left: 20px;
+}
+.line2 {
+    border-bottom: #111111;
+    margin-bottom: 68px;
+}
+.skills {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    position: relative;
+    bottom: 27em;
+    left: 2.2em;
+}
+.linkedin {
+    position: relative;
+    right: 45em;
+    top: 30em;
+}
+.instagram {
+    position: relative;
+    right: 42em;
+    top: 30em;
+}
+.twitter {
+    position: relative;
+    right: 39em;
+    top: 30em;
+}
+.gmail {
+    position: relative;
+    right: 39em;
+    top: 25em;
+}
+.figma {
+   position: relative;
+    bottom: 42em;
+    margin: 40px;
+}
+.figma1 {
+    position: relative;
+     bottom: 52em;
+     left: 15em;
+     margin: 15px;
+ }
+ .figma2 {
+    position: relative;
+     bottom: 46em;
+     margin: 40px;
+ }
+ .figma3 {
+    position: relative;
+    bottom: 56em;
+     left: 15em;
+     margin: 15px;
+ }
+
+    
+  
